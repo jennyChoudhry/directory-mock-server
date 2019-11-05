@@ -1,0 +1,74 @@
+{
+    "name": "directory-mock-server",
+    "version": "1.0.0",
+    "description": "Mock Server for WeWork's Directory. Leveraging Node.js and Express",
+    "scripts": {
+        "start": "nps"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jennyChoudhry/directory-mock-server"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "aws-sdk": "^2.444.0",
+        "body-parser": "^1.19.0",
+        "boom": "^7.2.0",
+        "config-yml": "^0.10.2",
+        "cors": "^2.8.4",
+        "express": "^4.15.2",
+        "express-validator": "^5.3.1",
+        "http-status-codes": "^1.3.0",
+        "https": "^1.0.0",
+        "knex": "^0.15.2",
+        "lodash.camelcase": "^4.3.0",
+        "lodash.omit": "^4.5.0",
+        "lodash.snakecase": "^4.1.1",
+        "node-rest-client-promise": "^3.1.1",
+        "ramda": "^0.26.1",
+        "swagger-jsdoc": "^3.2.7",
+        "swagger-ui-express": "^4.0.1",
+        "tunnel": "0.0.6",
+        "winston": "^3.0.0",
+        "yaml": "^1.5.0"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.4.4",
+        "@babel/core": "^7.4.4",
+        "@babel/node": "^7.2.2",
+        "@babel/plugin-proposal-object-rest-spread": "^7.4.4",
+        "@babel/preset-env": "^7.4.4",
+        "@babel/traverse": "^7.4.4",
+        "@babel/types": "^7.4.4",
+        "babel-core": "^7.0.0-bridge.0",
+        "babel-eslint": "^10.0.1",
+        "babel-jest": "^23.4.2",
+        "babel-polyfill": "^6.26.0",
+        "eslint": "^5.16.0",
+        "eslint-plugin-markdown": "^1.0.0",
+        "husky": "^1.3.1",
+        "jasmine": "^3.4.0",
+        "jest": "^24.7.1",
+        "jest-circus": "^24.7.1",
+        "mississippi": "^3.0.0",
+        "nodemon": "^1.18.11",
+        "nps": "^5.9.5",
+        "prettier": "^1.17.0",
+        "prettier-eslint": "^8.8.2",
+        "prettier-eslint-cli": "^4.7.1",
+        "request-promise": "^4.2.4"
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "nps format"
+        }
+    },
+    "babel": {
+        "presets": [
+            "@babel/preset-env"
+        ],
+        "plugins": [
+            "@babel/plugin-proposal-object-rest-spread"
+        ]
+    }
+}

@@ -1,0 +1,19 @@
+scripts:
+  default: nps api
+  api: cd api && nodemon src/app.js --exec babel-node 
+  lint: eslint "api/src/**/*.js" "*.md" 
+  format: prettier-eslint "api/src/**/*.{js,json,yml}" "*.md" --write
+  install:
+    default: nps install.root && nps install.api
+    root: npm install
+    api: npm install --prefix api
+  container:
+    default: nps container.clear && nps container.start
+    start: 
+      default: nps container.start.build && nps container.start.run
+      build:  docker build -t collins-data-market/flight-plans-api .
+      run: docker run -d --name=ims-flight-plans-api -p 4000:4000 collins-data-market/flight-plans-api
+    clear:
+      default: nps container.clear.kill && nps container.clear.rm 
+      kill: docker kill $(docker ps -aqf name=ims-flight-plans-api) || true
+      rm: docker rm $(docker ps -aqf name=ims-flight-plans-api) || true

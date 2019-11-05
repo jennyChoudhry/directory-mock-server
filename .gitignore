@@ -1,0 +1,8 @@
+.DS_Store
+
+.vscode/
+
+node_modules
+
+npm-debug.log
+api/ims-flight-plans.log
