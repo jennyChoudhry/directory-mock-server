@@ -5,4 +5,4 @@
 node_modules
 
 npm-debug.log
-api/ims-flight-plans.log
+api/directory-mock-server.log
