@@ -1,7 +1,7 @@
 import { createLogger, format, transports } from 'winston';
 const { combine, timestamp, label, printf } = format;
 
-const filename = 'ims-flight-plans.log';
+const filename = 'directory-mock-server.log';
 const myTransports = [ new transports.Console(), new transports.File({ filename }) ];
 
 const myFormat = printf(info => {
@@ -10,7 +10,7 @@ const myFormat = printf(info => {
 });
 
 export default moduleName => {
-  const name = 'ims-flight-plans-api' + (moduleName === undefined ? '' : `:${moduleName}`);
+  const name = 'directory-mock-server-api' + (moduleName === undefined ? '' : `:${moduleName}`);
   return createLogger({
     transports: myTransports,
     format: combine(label({ label: name }), timestamp(), myFormat),

@@ -6,8 +6,7 @@ import { json } from 'body-parser';
 
 import logger from './logging';
 
-import flightPlans from './flight-plans';
-import docs from './docs';
+import permissions from './permissions';
 
 import packageJson from '../../package.json';
 
@@ -32,10 +31,9 @@ async function main() {
     res.json({ message: 'Luna is healthy' });
   });
 
-  api.use('/docs', docs());
-  api.use('/flight-plans', flightPlans());
+  api.use('/permissions', permissions());
 
-  app.use('/', api);
+  app.use('/api/v13', api);
 
   log.info('Starting API server');
   app.server = http.createServer(app);

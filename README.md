@@ -1,14 +1,14 @@
-# Directory Mock Services
+# Directory Mock Server
 
 _A Microservice API utilizing Node JS and Express._
 
-_What_: 
+_What_:
 
 ## Prerequisites
 
 ### NPS
 
-Flight Plans API uses [nps] to define and execute npm scripts without the cost of a bloated package.json and the limits of JSON.
+Directory Mock Server uses [nps] to define and execute npm scripts without the cost of a bloated package.json and the limits of JSON.
 
 `npm start` is defined (in `package.json`) as an alias for `nps`, hence all scripts are run via `npm start <...>`
 
@@ -17,8 +17,8 @@ Flight Plans API uses [nps] to define and execute npm scripts without the cost o
 Clone this repo
 
 ```sh
-git clone https://github.dx.utc.com/utdx/collins-ims-flight-plans-api
-cd collins-ims-flight-plans-api
+git clone https://github.com/jennyChoudhry/directory-mock-server
+cd directory-mock-server
 ```
 
 Install all dependencies

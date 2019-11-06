@@ -1,0 +1,30 @@
+[2019-11-06T15:52:09.899Z] INFO: directory-mock-server-api v1.0.0
+[2019-11-06T15:52:09.900Z] INFO: directory-mock-server-api Registering middleware
+[2019-11-06T15:52:09.916Z] INFO: directory-mock-server-api Registering routes
+[2019-11-06T15:52:09.916Z] INFO: directory-mock-server-api Starting API server
+[2019-11-06T15:52:09.921Z] INFO: directory-mock-server-api API started on port 4000
+[2019-11-06T15:52:20.692Z] INFO: directory-mock-server-api v1.0.0
+[2019-11-06T15:52:20.693Z] INFO: directory-mock-server-api Registering middleware
+[2019-11-06T15:52:20.706Z] INFO: directory-mock-server-api Registering routes
+[2019-11-06T15:52:20.707Z] INFO: directory-mock-server-api Starting API server
+[2019-11-06T15:52:20.712Z] INFO: directory-mock-server-api API started on port 4000
+[2019-11-06T15:53:21.388Z] INFO: directory-mock-server-api v1.0.0
+[2019-11-06T15:53:21.390Z] INFO: directory-mock-server-api Registering middleware
+[2019-11-06T15:53:21.404Z] INFO: directory-mock-server-api Registering routes
+[2019-11-06T15:53:21.404Z] INFO: directory-mock-server-api Starting API server
+[2019-11-06T15:53:21.410Z] INFO: directory-mock-server-api API started on port 4000
+[2019-11-06T15:53:24.439Z] INFO: directory-mock-server-api v1.0.0
+[2019-11-06T15:53:24.440Z] INFO: directory-mock-server-api Registering middleware
+[2019-11-06T15:53:24.454Z] INFO: directory-mock-server-api Registering routes
+[2019-11-06T15:53:24.454Z] INFO: directory-mock-server-api Starting API server
+[2019-11-06T15:53:24.460Z] INFO: directory-mock-server-api API started on port 4000
+[2019-11-06T15:57:26.067Z] INFO: directory-mock-server-api v1.0.0
+[2019-11-06T15:57:26.068Z] INFO: directory-mock-server-api Registering middleware
+[2019-11-06T15:57:26.083Z] INFO: directory-mock-server-api Registering routes
+[2019-11-06T15:57:26.083Z] INFO: directory-mock-server-api Starting API server
+[2019-11-06T15:57:26.088Z] INFO: directory-mock-server-api API started on port 4000
+[2019-11-06T15:58:10.253Z] INFO: directory-mock-server-api v1.0.0
+[2019-11-06T15:58:10.254Z] INFO: directory-mock-server-api Registering middleware
+[2019-11-06T15:58:10.269Z] INFO: directory-mock-server-api Registering routes
+[2019-11-06T15:58:10.269Z] INFO: directory-mock-server-api Starting API server
+[2019-11-06T15:58:10.275Z] INFO: directory-mock-server-api API started on port 4000
