@@ -1,4 +1,5 @@
 import { Router } from 'express';
+import { OK, CREATED } from 'http-status-codes';
 import { handleValidationFailure } from '../errors';
 import { validateKnownParams } from '../validation/helpers';
 
@@ -33,6 +34,14 @@ export default function createRouter(log) {
         },
       ],
     });
+  });
+
+  router.delete('/:policy_name', async (req, res, next) => {
+    res.status(OK);
+  });
+
+  router.post('/:policy_name', async (req, res, next) => {
+    res.status(CREATED);
   });
 
   return router;
