@@ -45,6 +45,8 @@ npm start
 
 The application can also be run containorized with `npm start container` and stopped with `npm start container.clear`
 
+Application is running on http://localhost:4000
+
 ## Contributing
 
 See [Contributing.md](CONTRIBUTING.md)
