@@ -6,10 +6,10 @@ import { json } from 'body-parser';
 
 import logger from './logging';
 
-import permissions from './permissions';
-import users from './users';
-import directory from './directory';
-import companies from './companies';
+import permissions from './resources/permissions';
+import users from './resources/users';
+import directory from './resources/directory';
+import companies from './resources/companies';
 
 import packageJson from '../../package.json';
 

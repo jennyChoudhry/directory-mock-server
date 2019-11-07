@@ -1,7 +1,7 @@
 import { Router } from 'express';
 import { OK, CREATED, NO_CONTENT } from 'http-status-codes';
-import { handleValidationFailure } from '../errors';
-import { validateKnownParams } from '../validation/helpers';
+import { handleValidationFailure } from '../../errors';
+import { validateKnownParams } from '../../validation/helpers';
 
 export default function createRouter(log) {
   const router = new Router();

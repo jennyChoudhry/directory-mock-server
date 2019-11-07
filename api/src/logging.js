@@ -10,7 +10,7 @@ const myFormat = printf(info => {
 });
 
 export default moduleName => {
-  const name = 'directory-mock-server-api' + (moduleName === undefined ? '' : `:${moduleName}`);
+  const name = 'directory-mock-server' + (moduleName === undefined ? '' : `:${moduleName}`);
   return createLogger({
     transports: myTransports,
     format: combine(label({ label: name }), timestamp(), myFormat),

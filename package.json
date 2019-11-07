@@ -1,7 +1,7 @@
 {
     "name": "directory-mock-server",
     "version": "1.0.0",
-    "description": "Mock Server for WeWork's Directory. Leveraging Node.js and Express",
+    "description": "Mock Server for WeWork's new Directory feature. Leveraging Node.js and Express",
     "scripts": {
         "start": "nps"
     },

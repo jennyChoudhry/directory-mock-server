@@ -1,7 +1,7 @@
 import createRouter from './routes';
-import logger from '../logging';
+import logger from '../../logging';
 
-const log = logger('Directory');
+const log = logger('User');
 
 export default function () {
   return createRouter(log);

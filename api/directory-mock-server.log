@@ -356,3 +356,15 @@
 [2019-11-07T16:22:36.891Z] INFO: directory-mock-server-api API started on port 4000
 [2019-11-07T16:22:38.029Z] INFO: directory-mock-server-api:User GET /?location_id=some-uuid&member_type=new
 [2019-11-07T16:22:38.978Z] INFO: directory-mock-server-api:User GET /?location_id=some-uuid&member_type=new
+[2019-11-07T20:07:50.299Z] INFO: directory-mock-server-api v1.0.0
+[2019-11-07T20:07:50.300Z] INFO: directory-mock-server-api Registering middleware
+[2019-11-07T20:07:50.349Z] INFO: directory-mock-server-api Registering routes
+[2019-11-07T20:07:50.350Z] INFO: directory-mock-server-api Starting API server
+[2019-11-07T20:07:50.359Z] INFO: directory-mock-server-api API started on port 4000
+[2019-11-07T20:07:56.024Z] INFO: directory-mock-server-api:Permissions GET /?permissions[]=mena_company_directory&permissions[]=mena_user_directory
+[2019-11-07T20:09:58.346Z] INFO: directory-mock-server-api:User GET /?location_id=some-uuid&member_type=new
+[2019-11-07T20:10:14.772Z] INFO: directory-mock-server v1.0.0
+[2019-11-07T20:10:14.773Z] INFO: directory-mock-server Registering middleware
+[2019-11-07T20:10:14.788Z] INFO: directory-mock-server Registering routes
+[2019-11-07T20:10:14.789Z] INFO: directory-mock-server Starting API server
+[2019-11-07T20:10:14.797Z] INFO: directory-mock-server API started on port 4000
