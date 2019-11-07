@@ -26,6 +26,7 @@ async function main() {
   app.use(cors());
   app.use(json({ limit: '50mb' }));
   app.use(expressValidator());
+  app.disable('etag');
 
   log.info('Registering routes');
   const api = express.Router();
