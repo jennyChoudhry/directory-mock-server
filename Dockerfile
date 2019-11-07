@@ -7,7 +7,7 @@ RUN mkdir -p /usr/app
 COPY . /usr/app
 WORKDIR /usr/app
 
-# For now, we only have the API 
+# We only have one API microservice 
 EXPOSE 4000
 
 # Install dependencies 

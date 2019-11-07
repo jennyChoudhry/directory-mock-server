@@ -43,7 +43,7 @@ Run app in a terminal window:
 npm start
 ```
 
-The application can also be run containorized with `npm start container` and stopped by `npm start container.stop`
+The application can also be run containorized with `npm start container` and stopped with `npm start container.clear`
 
 ## Contributing
 

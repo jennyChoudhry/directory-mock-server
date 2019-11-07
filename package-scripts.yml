@@ -15,5 +15,5 @@ scripts:
       run: docker run -d --name=directory-mock-server-api -p 4000:4000 directory-mock-server/api
     clear:
       default: nps container.clear.kill && nps container.clear.rm 
-      kill: docker kill $(docker ps -aqf name=ims-directory-mock-server-api) || true
+      kill: docker kill $(docker ps -aqf name=directory-mock-server-api) || true
       rm: docker rm $(docker ps -aqf name=directory-mock-server-api) || true
