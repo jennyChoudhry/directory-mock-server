@@ -9,6 +9,7 @@ import logger from './logging';
 import permissions from './permissions';
 import users from './users';
 import directory from './directory';
+import companies from './companies';
 
 import packageJson from '../../package.json';
 
@@ -36,6 +37,7 @@ async function main() {
   api.use('/permissions', permissions());
   api.use('/users', users());
   api.use('/directory', directory());
+  api.use('/companies', companies());
 
   app.use('/api/v13', api);
 
