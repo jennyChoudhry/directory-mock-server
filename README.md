@@ -2,7 +2,7 @@
 
 _A Microservice API utilizing Node JS and Express._
 
-_What_: Mock server to enable parallel workstreams between iOS, Web, Android and Back-end platforms
+_What_: A mock server to enable parallel workstreams between iOS, Web, Android and Back-end platforms. The services in this application are meant to serve as API contracts between the client and backend platforms.
 
 ## Prerequisites
 

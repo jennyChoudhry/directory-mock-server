@@ -7,7 +7,7 @@ export default function createRouter(log) {
 
   router.get('/', async (req, res, next) => {
     log.info(`GET ${req.url}`);
-    const knownParams = [ 'location_id' ];
+    const knownParams = [ 'location_id', 'page', 'per_page' ];
 
     const unknownParamsErrors = validateKnownParams(knownParams, req.query);
     const validationResult = await req.getValidationResult();

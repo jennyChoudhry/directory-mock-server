@@ -8,7 +8,7 @@ export default function createRouter(log) {
   // Gets new users and older users
   router.get('/', async (req, res, next) => {
     log.info(`GET ${req.url}`);
-    const knownParams = [ 'location_id', 'member_type' ];
+    const knownParams = [ 'location_id', 'member_type', 'page', 'per_page' ];
 
     const unknownParamsErrors = validateKnownParams(knownParams, req.query);
     const validationResult = await req.getValidationResult();
